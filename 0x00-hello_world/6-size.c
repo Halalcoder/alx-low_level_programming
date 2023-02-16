@@ -20,7 +20,7 @@ int main(void)
 	printf("Size of an int: %d byte(s)\n", b);
 	printf("Size of a long: %d byte(s)\n", c);
 	printf("Size of a long long int: %d byte(s)\n", d);
-	printf("Size of a float: %1d byte(s)\n", e);
+	printf("Size of a float: %1f byte(s)\n", e);
 
 	return (0);
 }
