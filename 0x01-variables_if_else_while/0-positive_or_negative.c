@@ -4,9 +4,9 @@
 
 /**
  * main - Determines if a number is positive,negative or zero
- *
  * Description: A program that checks if
  * a number is positive, negative or zero
+ *
  * Result: Always 0 (success)
  */
 int main(void)
