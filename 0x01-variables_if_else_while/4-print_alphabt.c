@@ -13,7 +13,7 @@ int main(void)
 	first = 'q';
 	second = 'e';
 
-	for (c = 'a'; c <= z; c++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		if (c != first && c != second)
 			putchar(c);
