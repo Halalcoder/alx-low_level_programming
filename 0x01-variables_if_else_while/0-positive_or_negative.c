@@ -7,7 +7,7 @@
  * to the variable n each time it is executed
  *
  * Description: Return differnt values
- * Result:
+ * Result: Return 0
  */
 int main(void)
 {
@@ -22,11 +22,11 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-                printf("%d is zero\n", n);
-        }
+		printf("%d is zero\n", n);
+	}
 	else
 	{
-                printf("%d is negative\n", n);
-        }
+		printf("%d is negative\n", n);
+	}
 	return (0);
 }
