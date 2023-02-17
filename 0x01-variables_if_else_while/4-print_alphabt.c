@@ -10,6 +10,7 @@
 int main(void)
 {
 	char c, first, second;
+
 	first = 'q';
 	second = 'e';
 
