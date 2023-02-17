@@ -3,10 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - This program will assign a random number
- * to the variable n each time it is executed
+ * main - Determines if a number is positive,negative or zero
  *
- * Description: A program that checks if 
+ * Description: A program that checks if
  * a number is positive, negative or zero
  * Result: Always 0 (success)
  */
