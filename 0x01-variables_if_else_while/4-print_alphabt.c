@@ -13,13 +13,12 @@ int main(void)
 	first = 'q';
 	second = 'e';
 
-	for (c = 'a'; a <= z; a++)
+	for (c = 'a'; c <= z; c++)
 	{
-		if (c != first && c!= second)
+		if (c != first && c != second)
 			putchar(c);
 	}
 	putchar('\n');
 
 	return (0);
 }
-
