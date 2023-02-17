@@ -6,8 +6,9 @@
  * main - This program will assign a random number
  * to the variable n each time it is executed
  *
- * Description: Return differnt values
- * Result: Return 0
+ * Description: A program that checks if 
+ * a number is positive, negative or zero
+ * Result: Always 0 (success)
  */
 int main(void)
 {
