@@ -13,9 +13,9 @@ int main(void)
 
 	for (i = '0'; i <= '9'; i++)
 	{
-		for (a = '0'; a <= '9'; a++)
+		for (a = i + 1; a <= '9'; a++)
 		{
-			for (b = '0'; b <= '9'; b++)
+			for (b = a + 1; b <= '9'; b++)
 				if (i != a && i != b && a != b)
 				{
 					putchar(i);
