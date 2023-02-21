@@ -2,7 +2,7 @@
 
 /**
  * main - a program that prints the alphabets in lower case
- * Description: to print using putchar
+ * print_alphabet: print alphabet
  * Return: Always 0
  */
 
