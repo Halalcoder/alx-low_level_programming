@@ -2,6 +2,7 @@
 
 /**
  * main - a program that prints the alphabets in lower case
+ *
  * print_alphabet: print alphabet
  * Return: Always 0
  */
