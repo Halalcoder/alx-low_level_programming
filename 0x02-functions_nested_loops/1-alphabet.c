@@ -2,6 +2,7 @@
 
 /**
  * main - a program that prints the alphabets in lower case
+ * @c: the character to be used
  * Return: Always 0
  */
 
