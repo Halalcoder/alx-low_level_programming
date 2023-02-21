@@ -1,8 +1,6 @@
 #include "main.h"
 
 /**
- * main - a function that orints ten times the alphabets
- *
  * print_alphabet_x10 - print alphabets
  * Return: Always 0
  */
