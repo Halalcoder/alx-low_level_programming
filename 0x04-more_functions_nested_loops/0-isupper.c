@@ -1,10 +1,11 @@
-#include "mqin.h"
+#include "main.h"
 
 /**
- * _isupper - a funxtion that checks uppercase character
- * @c: the charcter to be used
+ * _isupper - progran that checks for upper case
+ * @c: the charactrr to be used
  * Return: 0 or 1
  */
+
 int _isupper(int c)
 {
 	if ((c >= 'A') && (c <= 'Z'))
