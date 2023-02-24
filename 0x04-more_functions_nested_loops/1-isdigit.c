@@ -3,7 +3,7 @@
 /**
  * _isdigit - function thag chwcks for a digit
  * @c: the character ti be used
- * Return 1 or 0
+ * Return: 1 or 0
  */
 
 int _isdigit(int c)
