@@ -1,4 +1,5 @@
 #include "main.h"
+#include "stddef.h"
 
 /**
  * _strlen - the string to be considered
