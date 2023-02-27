@@ -2,7 +2,7 @@
 
 /**
  * _puts - the function to be used
- * @*str: the pointer to be used
+ * @str: the pointer to be used
  * Return: the length of the string
  */
 void _puts(char *str)
