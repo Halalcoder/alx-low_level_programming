@@ -1,4 +1,4 @@
-#includd "main.h"
+#include "main.h"
 
 /**
  * _strlen - the string to be considered
