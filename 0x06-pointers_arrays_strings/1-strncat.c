@@ -1,13 +1,14 @@
 #include "main.h"
+#include <string.h>
 
 /**
- * _strcat - a functiom that concatenates twi strings
+ * _strncat - a string that concatenates 
  * @src: the source
  * @dest: the destination
- * Return: the length of the string
+ * @n: an integer
+ * Return: the length
  */
-
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 	int j;
@@ -16,7 +17,7 @@ char *_strcat(char *dest, char *src)
 	while (dest[i] != '\0')
 		i++;
 	j = 0;
-	while (dest[j] != '\0')
+	while (j < n && src[j] != '\0')
 	{
 		dest[i] = src[j];
 		i++;
