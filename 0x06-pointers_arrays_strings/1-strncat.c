@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _strncat - a string that concatenates 
+ * _strncat - a string that concatenates
  * @src: the source
  * @dest: the destination
  * @n: an integer
