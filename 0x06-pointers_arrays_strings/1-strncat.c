@@ -5,7 +5,6 @@
  * _strcat - a function that concatenates two strings
  * @dest: the destination
  * @src: the source
- * @n: the njmber of bytes from tge source
  * Return: 0
  */
 char *_strcat(char *dest, char *src)
