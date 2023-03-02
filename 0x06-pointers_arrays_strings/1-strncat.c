@@ -2,18 +2,19 @@
 #include <string.h>
 
 /**
- * _strcat - a function that concatenates two strings
- * @dest: the destination
- * @src: the source
- * Return: 0
+ * _strncat - a function that cincatenates two strings
+ * @dest: the destination string
+ * @src: the source string
+ * @n: the number of bytes for source string
+ * Return: dest
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
-	int index = 0, dest_len = 0;
+	int dl = 0, index = 0, n;
 
 	while (dest[index++])
-		dest_len++;
-	for (index = 0; src[index] && index < n; index++)
-		dest[dest_len++] = src[index];
+		dl++;
+	for (index = 0; (src[index] && index) < n; index++)
+		dest[dl++] = src[index];
 	return (dest);
 }
