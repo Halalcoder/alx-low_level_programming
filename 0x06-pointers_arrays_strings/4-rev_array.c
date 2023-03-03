@@ -3,7 +3,7 @@
 
 /**
  * reverse_array - a function that reverses array
- * @a: array 
+ * @a: array
  * @n: number if elements of array
  * Return: 0
  */
@@ -11,7 +11,7 @@
 void reverse_array(int *a, int n)
 {
 	int i, t;
-	
+
 	for (i = 0; i < n--; i++)
 	{
 		t = a[i];
