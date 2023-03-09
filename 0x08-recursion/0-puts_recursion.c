@@ -3,8 +3,9 @@
 /**
  * _puts_recursion - a function that works like puts
  * @s: the input
- * Return: 0
+ * Return: Always 0
  */
+
 void _puts_recursion(char *s)
 {
 	if (*s)
