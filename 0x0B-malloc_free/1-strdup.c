@@ -13,7 +13,8 @@ char *_strdup(char *str)
 	char *a;
 
 	if (str == NULL)
-		return (0);
+		return (NULL);
+	i = 0;
 	while (str[i] != '\0')
 		i++;
 
